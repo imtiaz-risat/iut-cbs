@@ -40,13 +40,13 @@ const Navbar = () => {
   return (
     <div>
       {/* Desktop Navbar */}
-      <nav className="flex h-16 justify-between items-center p-4 bg-[#800000] shadow-md text-white">
-        <img className="w-10 cursor-pointer" src={CBSlogo} alt="logo" />
+      <nav className="flex h-[4.2rem] px-4 md:px-8 justify-between items-center p-4 bg-[#800000] shadow-md text-white">
+        <img className="w-14 cursor-pointer" src={CBSlogo} alt="logo" />
         <ul className="hidden md:flex space-x-4">
           {menuItems.map((item) => (
             <li key={item.name} className="relative group">
               <a
-                className="hover:text-gray-200 hover:border-b-2 hover:border-gray-200 py-2 px-4 transition duration-300"
+                className="hover:text-gray-200 hover:font-medium hover:border-b-2 hover:border-gray-200 py-2 px-4 transition duration-300"
                 href={item.href}
               >
                 {item.name}

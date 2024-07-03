@@ -9,6 +9,13 @@ module.exports = withMT({
         mont: ["Montserrat", "sans-serif"],
       },
     },
+    screens: {
+      sm: "640px",
+      md: "850px", // Changed the default md breakpoint to 850px
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
   },
   plugins: [],
 });
