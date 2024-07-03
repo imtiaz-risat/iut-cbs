@@ -21,7 +21,7 @@ const Navbar = () => {
     { name: "Hall of Fame", href: "#" },
     { name: "Publications", href: "#" },
     { name: "About Us", href: "#" },
-    { name: "Team", href: "#" },
+    { name: "Team", href: "/team" },
   ];
 
   const openSideBar = () => {
