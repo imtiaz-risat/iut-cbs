@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/Team",
+    path: "/team",
     element: <Team />,
   },
 ]);
