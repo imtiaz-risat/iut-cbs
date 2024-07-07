@@ -1,5 +1,5 @@
 import RohanArpon from "../../Assets/Team/EC2024/RohanArpon_President.webp";
-import MdSafayetSamir from "../../Assets/Team/EC2024/MdSafayetSamir_VicePresident(Internal).webp";
+import MdSafayetSamir from "../../Assets/Team/EC2024/Md.SafayetSamir_VicePresident(Internal).webp";
 import NafisaAlamToree from "../../Assets/Team/EC2024//NafisaAlamToree_VicePresident(External).webp";
 import MoyeenulAziz from "../../Assets/Team/EC2024/MoyeenulAziz(Shaikat)_Treasurer.webp";
 import SamihaMasud from "../../Assets/Team/EC2024/SamihaMasud_Secretary(PR&Marketing).webp";
