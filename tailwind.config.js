@@ -16,6 +16,11 @@ module.exports = withMT({
       xl: "1280px",
       "2xl": "1536px",
     },
+    colors: {
+      gold: "rgba(255, 215, 0, 0.8)",
+      silver: "rgba(161, 161, 170, 0.8)",
+      bronze: "rgba(205, 127, 50, 0.75)",
+    },
   },
   plugins: [],
 });

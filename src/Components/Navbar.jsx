@@ -14,7 +14,7 @@ const Navbar = () => {
       subItems: [
         { name: "Biznation", href: "#" },
         { name: "Career Expo", href: "#" },
-        { name: "Intern", href: "#" },
+        { name: "Intern", href: "/intern" },
         { name: "NeoTalk", href: "#" },
       ],
     },

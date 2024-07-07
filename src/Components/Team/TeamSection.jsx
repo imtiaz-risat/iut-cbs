@@ -19,7 +19,7 @@ export default function TeamSection() {
               <img
                 src={member.img}
                 alt={member.name}
-                className="w-32 h-32 object-cover rounded-full mt-4"
+                className="w-32 h-32 object-cover rounded-full border-[3.25px] border-red-900 mt-4"
               />
               <div className="p-4 text-center flex flex-col">
                 <h2 className="font-bold text-xl mb-2">{member.name}</h2>
@@ -70,7 +70,7 @@ export default function TeamSection() {
       {/* SUB-EXECUTIVES 2024 */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 justify-center">
         <h1 className="text-3xl sm:text-4xl font-bold text-center text-gray-100 mb-8 bg-black">
-          Sub-Executives 2024 <span className="text-red-900">2024</span>
+          Sub-Executives <span className="text-red-900">2024</span>
         </h1>
 
         <div className="text-center text-xl"> Will be added...</div>

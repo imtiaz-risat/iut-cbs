@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import cover1 from "../Assets/HeroCovers/1.jpg";
-import cover2 from "../Assets/HeroCovers/2.jpg";
+import cover1 from "../../Assets/HeroCovers/1.jpg";
+import cover2 from "../../Assets/HeroCovers/2.jpg";
 
 export function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);

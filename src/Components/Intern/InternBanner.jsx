@@ -1,7 +1,7 @@
 import React from "react";
-import teamBanner from "../../Assets/Team/team-bw.png";
+import teamBanner from "../../Assets/EventBanners/intern-banner.webp";
 
-export default function TeamCollageBanner() {
+export default function InternBanner() {
   return (
     <div className="relative h-min">
       {/* banner container */}

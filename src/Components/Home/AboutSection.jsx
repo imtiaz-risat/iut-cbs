@@ -1,5 +1,5 @@
 import React from "react";
-import CBSlogo from "../Assets/CBS-logo-black.png";
+import CBSlogo from "../../Assets/CBS-logo-black.png";
 
 export default function AboutSection() {
   return (
