@@ -89,8 +89,7 @@ export default function WinnersSection() {
   return (
     <div className="flex flex-col p-4 lg:px-20 mt-8">
       <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8">
-        Champions Ar
-        <span className=" underline underline-offset-8">chives{"  ."}</span>
+        Champions Archives
       </h1>
       <div className="flex overflow-x-auto space-x-2 border-b pb-4 mb-4">
         {buttons.map((button, index) => (
