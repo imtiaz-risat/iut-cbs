@@ -87,7 +87,7 @@ export default function WinnersSection() {
   };
 
   return (
-    <div className="flex flex-col p-10 lg:px-20 mt-8">
+    <div className="flex flex-col p-4 lg:px-20 mt-8">
       <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8">
         Champions Ar
         <span className=" underline underline-offset-8">chives{"  ."}</span>
