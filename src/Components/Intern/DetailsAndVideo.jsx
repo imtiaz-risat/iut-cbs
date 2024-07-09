@@ -25,7 +25,7 @@ export default function DetailsAndVideo() {
       <div className="w-full lg:w-1/2">
         <div className="relative" style={{ paddingBottom: "56.25%" }}>
           <iframe
-            className="absolute top-0 left-0 w-full h-full rounded shadow-lg"
+            className="absolute aspect-video top-0 left-0 w-full h-full rounded shadow-lg"
             title="Youtube player"
             sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
             src="https://youtube.com/embed/QOuY2VTlUiQ?autoplay=0"
