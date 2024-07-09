@@ -7,20 +7,20 @@ const Navbar = () => {
   const [activitiesOpen, setActivitiesOpen] = useState(false);
 
   const menuItems = [
-    { name: "Home", href: "#" },
+    { name: "Home", href: "/" },
     {
       name: "Activities",
       href: "#",
       subItems: [
-        { name: "Biznation", href: "#" },
-        { name: "Career Expo", href: "#" },
+        { name: "Biznation", href: "/biznation" },
+        { name: "Career Expo", href: "/career-expo" },
         { name: "Intern", href: "/intern" },
-        { name: "NeoTalk", href: "#" },
+        { name: "NeoTalk", href: "/neotalk" },
       ],
     },
-    { name: "Hall of Fame", href: "#" },
-    { name: "Publications", href: "#" },
-    { name: "About Us", href: "#" },
+    { name: "Hall of Fame", href: "/hall-of-fame" },
+    { name: "Publications", href: "/publication" },
+    { name: "About Us", href: "/about-us" },
     { name: "Team", href: "/team" },
   ];
 

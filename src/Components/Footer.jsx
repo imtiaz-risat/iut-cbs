@@ -58,7 +58,10 @@ export default function Footer() {
                       d="M11 16v-5.5A3.5 3.5 0 0 0 7.5 7m3.5 9H4v-5.5A3.5 3.5 0 0 1 7.5 7m3.5 9v4M7.5 7H14m0 0V4h2.5M14 7v3m-3.5 6H20v-6a3 3 0 0 0-3-3m-2 9v4m-8-6.5h1"
                     />
                   </svg>
-                  Email: info.iutcbs@gmail.com
+                  Email:{" "}
+                  <a href="mailto:info.iutcbs@gmail.com">
+                    info.iutcbs@gmail.com
+                  </a>
                 </li>
                 <li className="mb-4 flex">
                   <svg
@@ -78,7 +81,7 @@ export default function Footer() {
                       d="M18.427 14.768 17.2 13.542a1.733 1.733 0 0 0-2.45 0l-.613.613a1.732 1.732 0 0 1-2.45 0l-1.838-1.84a1.735 1.735 0 0 1 0-2.452l.612-.613a1.735 1.735 0 0 0 0-2.452L9.237 5.572a1.6 1.6 0 0 0-2.45 0c-3.223 3.2-1.702 6.896 1.519 10.117 3.22 3.221 6.914 4.745 10.12 1.535a1.601 1.601 0 0 0 0-2.456Z"
                     />
                   </svg>
-                  Phone: 01304-194994
+                  Phone: <a href="tel:+8801304-194994">01304-194994</a>
                 </li>
               </ul>
             </div>
@@ -91,17 +94,17 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-300">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/team" className="hover:underline">
                     Team
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/hall-of-fame" className="hover:underline">
                     Hall of Fame
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/publication" className="hover:underline">
                     Publications
                   </a>
                 </li>
@@ -111,22 +114,22 @@ export default function Footer() {
               <h2 className="mb-6 text-md font-semibold text-white">Events</h2>
               <ul className="text-gray-300">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/biznation" className="hover:underline">
                     Biznation
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/career-expo" className="hover:underline">
                     Career Expo
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/intern" className="hover:underline">
                     Intern
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/neotalk" className="hover:underline">
                     NeoTalk
                   </a>
                 </li>
@@ -141,9 +144,13 @@ export default function Footer() {
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             {/* facebook */}
-            <a href="#" className="text-gray-300 hover:text-gray-100">
+            <a
+              href="https://www.facebook.com/iut.cbs"
+              target="_blank"
+              className="text-gray-300 hover:text-gray-100"
+            >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
@@ -154,7 +161,11 @@ export default function Footer() {
               </svg>
             </a>
             {/* instagram */}
-            <a href="#" className="text-gray-300 hover:text-gray-100">
+            <a
+              href="https://www.instagram.com/iut.cbs"
+              target="_blank"
+              className="text-gray-300 hover:text-gray-100"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -167,7 +178,11 @@ export default function Footer() {
               </svg>
             </a>
             {/* LinkedIn */}
-            <a href="#" className="text-gray-300 hover:text-gray-100">
+            <a
+              href="https://www.linkedin.com/company/iut-career-business-society/"
+              target="_blank"
+              className="text-gray-300 hover:text-gray-100"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
