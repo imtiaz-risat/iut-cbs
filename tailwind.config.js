@@ -8,6 +8,10 @@ module.exports = withMT({
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],
       },
+      aspectRatio: {
+        "1/2": "1 / 2",
+        "2/1": "2 / 1",
+      },
     },
     screens: {
       sm: "640px",
